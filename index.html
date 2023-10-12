@@ -6,5 +6,29 @@
 </head>
 <body>
    <h1>Un super titre</h1>
+
+   <fieldset>
+    <legend>Vos études</legend>
+            <div>
+     <label for="school">L'école ou vous avez suivi le plus long cursus</label>
+             </div>
+    
+      <!-- select permet d'afficher une liste déroulante d'option à choisir -->
+     <!-- ici la première option sert d'indication, elle est donc désactivé mais choisie par défaut -->
+     <!-- On renvoi une value d'après l'option selectionnée -->
+     <select id="school" name="school">
+     <option disabled selected>--Choisissez une école--</option>
+     <option value="fr">France - BeauxBatons</option>
+     <option value="br">Brésil - Castelobruxo</option>
+     <option value="neu">Europe du Nord - Durmstrang</option>
+     <option value="na">Amérique du nord - Ilvermorny</option>
+     <option value="ru">Russie - Koldovstoretz</option>
+     <option value="jp">Japon - Mahoutokoro</option>
+     <option value="en">Angleterre - O'dlard</option>
+     <option value="af">Afrique - Uagadou</option>
+     <option value="autre">Autre</option>
+     </select>
+    </fieldset>
+    
 </body>
 </html>
